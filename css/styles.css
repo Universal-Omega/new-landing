@@ -11303,10 +11303,12 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #ffb60d;
+  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
-/*header.masthead:before {
+header.masthead:before {
   content: "";
   position: absolute;
   background-color: #1c375e;
@@ -11315,7 +11317,7 @@ header.masthead {
   top: 0;
   left: 0;
   opacity: 0.5;
-}*/
+}
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
 }
