@@ -11385,3 +11385,7 @@ footer.footer {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
+footer.footer.bg-dark a {
+    color: #1abc9c;
+    text-decoration: none;
+}
