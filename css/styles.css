@@ -11390,3 +11390,7 @@ footer.footer.bg-dark a {
 	color: #1abc9c;
 	text-decoration: none;
 }
+
+footer.footer.bg-dark {
+	color: #fff;
+}
