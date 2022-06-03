@@ -3558,6 +3558,7 @@ textarea.form-control-lg {
 	z-index: 1000;
 	display: none;
 	min-width: 10rem;
+	max-height: 280px;
 	padding: 0.5rem 0;
 	margin: 0;
 	font-size: 1rem;
@@ -3568,6 +3569,7 @@ textarea.form-control-lg {
 	background-clip: padding-box;
 	border: 1px solid rgba(0, 0, 0, 0.15);
 	border-radius: 0.25rem;
+	overflow-y: auto;
 }
 .dropdown-menu[data-bs-popper] {
 	top: 100%;
