@@ -4030,7 +4030,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
-	position: fixed;
+	position: sticky;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -4039,6 +4039,7 @@ textarea.form-control-lg {
 	padding-bottom: 0.5rem;
 	z-index: 1;
 	width: 100%;
+	top: 0;
 }
 .navbar > .container,
 .navbar > .container-fluid,
